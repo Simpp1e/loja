@@ -7,12 +7,6 @@ public class Principal
   public static void main (String [] args) 
     {
       Carro carro = new Carro (); 
-      carro.nome = "Nome : Aventador";
-      carro.marca = "Marca : Lamborghini";
-      carro.cor = "Cor : Preto Fosco";
-      carro.fabricacao = "Fabricacao : 2019";
-      carro.largura = "Largura: 2.265 mm";
-      carro.peso = "Peso : 1.575 Kg";
       
       Scanner scan = new Scanner(System.in);
       
