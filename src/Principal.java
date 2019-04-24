@@ -11,7 +11,15 @@ public class Principal
       Scanner scan = new Scanner(System.in);
       
       System.out.print("Nome do carro: ");
-      carro.nome= scan.next();
+      
+      
+      carro.setNome(scan.next());
+      
+      
+      
+      
+      
+      
       System.out.print("Marca do carro: ");
       carro.marca= scan.next();   
       System.out.print("Cor do carro: ");
